@@ -1,0 +1,76 @@
+/* Reset general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Fondo con imagen y centrado del login */
+  .login-background {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/public/top-view-hands-holding-smartphone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Contenedor del formulario */
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Campos de entrada */
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  /* Botón */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #034a85;
+  }
+  
+  a {
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  input:focus, button:focus {
+    outline: 2px solid #1e90ff;
+  }
+    

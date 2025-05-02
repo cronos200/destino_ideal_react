@@ -1,0 +1,69 @@
+.quienes-somos-container {  
+    background-image: url('/public/top-view-hands-holding-smartphone.jpg');  
+    background-size: cover;  
+    background-position: center;  
+    color: rgb(255, 255, 255); /* Cambia el color del texto si es necesario */  
+    padding: 50px;  
+    text-align: center; /* Centra el título */  
+}  
+  
+.titulo {  
+    font-size: 2.5em;  
+    margin-bottom: 20px;
+    color: rgb(0, 17, 255);
+}  
+  
+.descripcion {  
+    font-size: 1.2em;  
+    margin-bottom: 40px;  
+}  
+  
+/* Estilos para la sección de Misión */  
+.mision {  
+    display: flex;  /* Usar flexbox para alinear la imagen y el texto */  
+    justify-content: space-evenly; /* Espacio entre la imagen y el texto */  
+    margin-bottom: 60px; /* Agrega margen inferior para separar de la visión */  
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */  
+}  
+  
+/* Estilos para la imagen de Misión */  
+.imagen-mision {  
+    flex: 1; /* La imagen toma el mismo espacio */  
+    text-align: right; /* Alinea la imagen a la derecha */  
+    padding-left: 2px; /* Espaciado entre el texto e imagen */  
+}  
+  
+.imagen-mision img {  
+    max-width: 150%; /* Asegura que la imagen no exceda el ancho del contenedor */  
+    height: auto; /* Mantiene la relación de aspecto de la imagen */  
+    max-height: 280px; /* Ajusta el tamaño máximo de la imagen */  
+}  
+  
+/* Estilos para la sección de Visión */  
+.vision {  
+    display: flex;  /* Usar flexbox para alinear la imagen y el texto */  
+    justify-content: space-between; /* Espacio entre la imagen y el texto */  
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */  
+}  
+  
+/* Estilos para la imagen de Visión */  
+.imagen-vision {  
+    flex: 1; /* La imagen toma el mismo espacio */  
+    padding-right: 2px; /* Espaciado entre el texto e imagen */  
+}  
+  
+.imagen-vision img {  
+    max-width: 110%; /* Asegura que la imagen no exceda el ancho del contenedor */  
+    height: auto; /* Mantiene la relación de aspecto de la imagen */  
+    max-height: 280px; /* Ajusta el tamaño máximo de la imagen */  
+}  
+  
+/* Estilos para el texto de Misión y Visión */  
+.texto-mision, .texto-vision {  
+    flex: 2; /* El texto toma proporcionalmente más espacio */  
+}  
+  
+/* Espaciador entre Misión y Visión */  
+.espaciador {  
+    height: 60px; /* Espacio vertical entre Misión y Visión */  
+}  

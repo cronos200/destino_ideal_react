@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url('/public/top-view-hands-holding-smartphone.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.panel-control {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.panel-control-aside nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+  height: 70%;
+}
+
+.panel-control-aside nav ul li {
+  width: 80%;
+  height: 50px;
+  background-color: white;
+}

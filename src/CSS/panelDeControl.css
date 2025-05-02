@@ -1,0 +1,73 @@
+.panel-control-aside {
+    width: 97.5%;
+    height: 210px;
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+  }
+
+  .panel-control-aside div {
+    width: 210px;
+    height: 270px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .panel-control-aside div img {
+    width: 95%;
+    height: 80%;
+    border-radius: 50%;
+    border: solid 1px black;
+  }
+
+  .panel-control-aside nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row; 
+    gap: 0px; 
+  }
+
+  .botones {
+    margin: 0px;
+  }
+  
+  .botones button {
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #5fa4ff, #c79672);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    text-transform: capitalize;
+  }
+  
+  .botones button:hover {
+    background: linear-gradient(45deg, #fef57b, #5fcaff);
+    transform: scale(1.05);
+  }
+  
+  .botones button:active {
+    transform: scale(0.98);
+    transform: scale(0.98);
+  }
+
+  .panel-control-aside h1 {
+    margin-top: 3px;
+    font-size: 20px; 
+    text-align: center; 
+    color: rgb(25, 110, 200);
+}
