@@ -15,7 +15,7 @@ function BarraNavegacion() {
           <button>Contactanos</button>
         </div>
         <div className="botones">
-          <button>Quienes somos</button>
+          <button>Destinos</button>
         </div>
       </nav>
     </aside>
