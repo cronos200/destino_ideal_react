@@ -31,7 +31,7 @@ function Registro() {
 
   return (
     <div>
-        <div>
+        <div className="registro"> 
             <BarraNavegacion />
         </div>
     <div className="registro-background">

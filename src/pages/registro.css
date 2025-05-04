@@ -4,6 +4,14 @@
     margin: 0;
     padding: 0;
   }
+
+  .registro{
+    background-size: cover;  
+    background-position: center;  
+    color: rgb(255, 255, 255); /* Cambia el color del texto si es necesario */  
+    padding: 50px;  
+    text-align: center; /* Centra el título */ 
+  }
   
   /* Fondo y centrado */
   .registro-background {
