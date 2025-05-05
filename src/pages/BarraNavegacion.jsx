@@ -1,4 +1,4 @@
-import "../CSS/panelDeControl.css";
+import "../CSS/barraNavegacion.css";
 import logo from '../assets/logo.jpg'
 function BarraNavegacion() {
   return (

@@ -2,9 +2,10 @@ import BarraNavegacion from "./BarraNavegacion";
 import "../pages/login.css";
 
 function Login() {
+  
   return (
     <div>
-      <div>
+      <div className="login">
         <BarraNavegacion />
       </div>
       <div className="login-background">

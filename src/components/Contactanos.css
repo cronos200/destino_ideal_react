@@ -1,93 +1,114 @@
+.barranaVegacion {
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255); /* Cambia el color del texto si es necesario */
+  padding: 50px;
+  text-align: center; /* Centra el título */
+}
+
+.contactanos-wrapper {
+  min-height: 100vh; /* Ocupar toda la altura */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px; /* Espacio desde la barra de navegación */
+  padding-bottom: 40px;
+  background-image: url("/ruta/a/tu-imagen.jpg"); /* Opcional */
+  background-size: cover;
+  background-position: center;
+}
+
 .contactanos {
-    background-color: rgba(0, 0, 0, 0.65);
-    padding: 2.5rem;
-    border-radius: 12px;
-    width: 600px;
-    color: #ffffff;
-    text-align: center;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
-  }
-  
-  .contactanos h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: white;
-  }
-  
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 2.5rem;
+  border-radius: 12px;
+  width: 900px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,  0,  0,  0.75);
+}
+
+.contactanos h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.contactanos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contactanos-info,
+.contactanos-form {
+  flex: 1;
+  min-width: 300px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactanos-info h2,
+.contactanos-form h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.info-contact i,
+.contactanos-info p i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.contactanos-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.contactanos-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactanos-form input,
+.contactanos-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contactanos-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.contactanos-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactanos-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
   .contactanos-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  
-  .contactanos-info, .contactanos-form {
-    flex: 1;
-    min-width: 300px;
-    background-color: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contactanos-info h2,
-  .contactanos-form h2 {
-    margin-bottom: 15px;
-    color: #444;
-  }
-  
-  .info-contact i,
-  .contactanos-info p i {
-    margin-right: 10px;
-    color: #007BFF;
-  }
-  
-  .contactanos-info p {
-    margin: 10px 0;
-    font-size: 16px;
-    color: #555;
-  }
-  
-  .contactanos-form form {
-    display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  
-  .contactanos-form input,
-  .contactanos-form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .contactanos-form textarea {
-    min-height: 100px;
-    resize: vertical;
-  }
-  
-  .contactanos-form button {
-    background-color: #007BFF;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contactanos-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .contactanos-container {
-      flex-direction: column;
-      align-items: center;
-    }
 }
