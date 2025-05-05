@@ -1,5 +1,6 @@
 import BarraNavegacion from "./BarraNavegacion";
 import "../pages/login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
   
@@ -15,7 +16,7 @@ function Login() {
             <input type="email" placeholder="Correo electrónico" required />
             <input type="password" placeholder="Contraseña" required />
             <button type="submit">Ingresar</button>
-            <a>Registrate</a>
+            <Link to="/registro">Registrate</Link>
           </form>
         </div>
       </div>

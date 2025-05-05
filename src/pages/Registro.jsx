@@ -3,7 +3,7 @@ import "../pages/registro.css";
 import BarraNavegacion from "./BarraNavegacion";
 
 function Registro() {
-  const [formData, setFormData] = useState({
+  const [DatosFormulario, setDatosFormulario] = useState({
     nombre: "",
     apellido: "",
     correo: "",
@@ -15,18 +15,17 @@ function Registro() {
     confirmarPassword: "",
   });
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const manejarCambio = (e) => {
+    setDatosFormulario({ ...DatosFormulario, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (formData.password !== formData.confirmarPassword) {
+    if (DatosFormulario.password !== DatosFormulario.confirmarPassword) {
       alert("Las contraseñas no coinciden");
       return;
     }
-    alert(`Registro exitoso: ${formData.nombre} ${formData.apellido}`);
-    // Aquí puedes enviar los datos a un backend
+    alert(`Registro exitoso: ${DatosFormulario.nombre} ${DatosFormulario.apellido}`);
   };
 
   return (
@@ -44,7 +43,7 @@ function Registro() {
             placeholder="Nombre"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <input
             type="text"
@@ -52,7 +51,7 @@ function Registro() {
             placeholder="Apellido"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <input
             type="email"
@@ -60,7 +59,7 @@ function Registro() {
             placeholder="Correo electrónico"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <input
             type="text"
@@ -68,7 +67,7 @@ function Registro() {
             placeholder="Cédula"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <input
             type="tel"
@@ -76,14 +75,14 @@ function Registro() {
             placeholder="Teléfono"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <input
             type="date"
             name="fechaNacimiento"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <input
             type="text"
@@ -91,7 +90,7 @@ function Registro() {
             placeholder="Nacionalidad"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <input
             type="password"
@@ -99,7 +98,7 @@ function Registro() {
             placeholder="Contraseña"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <input
             type="password"
@@ -107,7 +106,7 @@ function Registro() {
             placeholder="Confirmar contraseña"
             required
             className="registro-input"
-            onChange={handleChange}
+            onChange={manejarCambio}
           />
           <button type="submit" className="registro-boton">
             Registrarse

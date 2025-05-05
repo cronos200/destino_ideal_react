@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 80%;
     height: 90%;
   }
   
@@ -45,7 +45,7 @@
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(45deg, #5fa4ff, #c79672);
+    background: linear-gradient(45deg, #398fff, #90daff);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -55,7 +55,7 @@
   }
   
   .botones button:hover {
-    background: linear-gradient(45deg, #fef57b, #5fcaff);
+    background: linear-gradient(45deg, #00c3ff, #0008ff);
     transform: scale(1.05);
   }
   

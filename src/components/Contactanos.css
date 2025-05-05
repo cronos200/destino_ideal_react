@@ -2,18 +2,17 @@
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255); /* Cambia el color del texto si es necesario */
-  padding: 50px;
+  padding: 90px;
   text-align: center; /* Centra el título */
 }
 
 .contactanos-wrapper {
-  min-height: 100vh; /* Ocupar toda la altura */
+  min-height: 90vh; /* Ocupar toda la altura */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 80px; /* Espacio desde la barra de navegación */
+  padding-top: 10px; /* Espacio desde la barra de navegación */
   padding-bottom: 40px;
-  background-image: url("/ruta/a/tu-imagen.jpg"); /* Opcional */
   background-size: cover;
   background-position: center;
 }

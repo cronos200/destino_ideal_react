@@ -1,3 +1,11 @@
+.navegacion{
+  background-size: cover;  
+    background-position: center;  
+    color: rgb(255, 255, 255); /* Cambia el color del texto si es necesario */  
+    padding: 50px;  
+    text-align: center; /* Centra el título */ 
+}
+
 .reservas {
   text-align: center;
   padding: 4rem;
@@ -24,10 +32,16 @@ h2{
   align-items: center;
 }
 
-.reservas input,
-.reservas button {
+.reservas input{
   padding: 0.5rem;
   width: 80%;
   max-width: 300px;
-  background-color: rgb(187, 211, 219);
+  background-color: rgb(255, 255, 255);
+}
+
+.reservas button{
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 300px;
+  background-color: rgb(17, 0, 255);
 }
