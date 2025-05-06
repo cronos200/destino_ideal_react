@@ -20,7 +20,7 @@ function QuinesSomos() {
 
       <div className="mision">
         <div className="texto-mision">
-          <h2>Misión</h2>
+          <h2 className="titulo">Misión</h2>
           <p>
             Nuestra misión es proporcionar a nuestros clientes experiencias de
             viaje excepcionales y personalizadas, asegurando que cada detalle
@@ -41,7 +41,7 @@ function QuinesSomos() {
           <img src={imagen2} alt="mapa con diferentes fotografias" />
         </div>
         <div className="texto-vision">
-          <h2>Visión</h2>
+          <h2 className="titulo">Visión</h2>
           <p>
             Aspiramos a ser la agencia de viajes líder en el mercado, reconocida
             por nuestra innovación y dedicación a la satisfacción del cliente.

@@ -1,15 +1,15 @@
 .quienes-somos-container {  
     background-size: cover;  
     background-position: center;  
-    color: rgb(255, 255, 255); /* Cambia el color del texto si es necesario */  
+    color: rgb(0, 0, 0); /* Cambia el color del texto si es necesario */  
     padding: 50px;  
     text-align: center; /* Centra el título */  
-}  
+}
   
 .titulo {  
     font-size: 2.5em;  
     margin-bottom: 20px;
-    color: rgb(0, 17, 255);
+    color: rgb(0, 0, 0);
 }  
   
 .descripcion {  
