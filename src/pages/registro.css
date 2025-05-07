@@ -8,14 +8,14 @@
   .registro{
     background-size: cover;  
     background-position: center;  
-    color: rgb(255, 255, 255); /* Cambia el color del texto si es necesario */  
+    color: rgb(255, 255, 255);  
     padding: 50px;  
-    text-align: center; /* Centra el título */ 
+    text-align: center;
   }
   
   /* Fondo y centrado */
   .registro-background {
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
